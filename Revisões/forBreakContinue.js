@@ -37,20 +37,3 @@ function separaImparesPares(valores) {
 
 
 
-//Função para ordenar valores do array
-let valores = [5, 6, 8, 7, 11, 14, 56, 23, 5, 9, 7, 2]
-
-function ordenaValores(array) {
-    let arrayOrdenado = []
-    let maior, menor, aux
-    for (let i = 0; i < array.length; i++) {
-        if(array[i] > maior){
-            maior = array[i]   // maior recebe o indice
-            aux = array[i]     //aux recebe a 
-            arrayOrdenado.push(maior)
-        }
-        
-        }
-
-    
-}

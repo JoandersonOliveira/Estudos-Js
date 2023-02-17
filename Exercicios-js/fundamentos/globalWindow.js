@@ -14,8 +14,10 @@ console.log('01 ', module.exports.c)
 console.log('02 ', module.exports === this)  //this é igual ao metdo module.exports
 console.log('03 ', module.exports) 
 
-abc = 3  //criando uma variável diretamento no escopo global. Não faça isso
+abc = 3  //criando uma variável diretamento no escopo global. Não recomendado
 console.log(abc)
+
+
 
 
 

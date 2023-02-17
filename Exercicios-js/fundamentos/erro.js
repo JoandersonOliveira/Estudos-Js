@@ -8,8 +8,8 @@ function tratarErroELancar(erro) {
 function imprimirNomeGritando(obj) {
     try {
         console.log(obj.name.toUpperCase() + '!!!') //aqui a função tenta executar o bloco
-    } catch (e) {                         //Dentro do bloco CATCH é feito o tratamento da exceção
-        tratarErroELancar(e)
+    } catch (e) {                         
+        tratarErroELancar(e)                    //Dentro do bloco CATCH é feito o tratamento da exceção
     } finally {
         console.log('Final')  // O bloco finally é o ultimo mesmo o erro tendo sido tratado no bloco catch
     }

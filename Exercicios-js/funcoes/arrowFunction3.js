@@ -6,7 +6,7 @@ comparaComThis(global)  //O this dentro de uma função aponta para um objeto gl
 
 const obj = {} //criando um objeto de forma direta
 
-//associando a função  a obj usndo o bind 
+//associando a função  a obj usando o bind 
 comparaComThis = comparaComThis.bind(obj) //sempre que chamar o 'comparaComThis' ele vai apontar para "obj" e não para o escopo global
 
 

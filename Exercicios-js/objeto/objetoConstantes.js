@@ -13,7 +13,7 @@ console.log(pessoa)
 Object.freeze(pessoa)// O método freeze congela um objeto e não permite reatribuições feitas no objetos a partir desse método.
 
 pessoa.nome = 'Maria'
-console.log(pessoa.nome) // pessoa.nome não imprimirá 'Maria', será umpresso 'Pedro'.
+console.log(pessoa.nome) // pessoa.nome não imprimirá 'Maria', será um impresso 'Pedro'.
 pessoa.end = 'Rua ABC'
 delete pessoa.nome
 

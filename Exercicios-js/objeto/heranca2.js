@@ -32,8 +32,8 @@ const ferrari = {
 const volvo = {
     modelo: 'V40',
     status() {
-        return `${this.modelo}: ${super.status()}` //super: referencia o protótipo. Nesse caso será chamado o método do protótipo. Super foi usado para o método não
-    }                                             //status() não sombrear o método status() do objeto protótio pois o Js prioriza o método local, nesse caso do objeto "volvo"
+        return `${this.modelo}: ${super.status()}` //super: referencia o protótipo. Nesse caso será chamado o método do protótipo. Super foi usado para o método 
+    }                                             //status() do objeto de contexto não sombrear o método status() do objeto protótio pois o Js prioriza o método local, nesse caso do objeto "volvo"
 }
 
 Object.setPrototypeOf(ferrari, carro) //Estabelecendo uma relação de protótipo entre ferrari e carro. Nesse caso ferrari tem carro como protótipo.

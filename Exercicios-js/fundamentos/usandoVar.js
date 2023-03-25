@@ -1,4 +1,4 @@
-//VAR => é visivel mesmo para codigos que está fora do escopo de bloco
+//VAR => é visivel mesmo para codigos que estão fora do escopo de bloco
 {
     {
         {

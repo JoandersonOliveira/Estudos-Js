@@ -18,7 +18,7 @@ function diaSemana(diaEmNum) {
             break
         case 7: return 'Sábado'
             break
-        default: return 'Valor informado não corresponde a um dia da semana'
+        default: return 'Informe um valor válido'
             break
     }
 }

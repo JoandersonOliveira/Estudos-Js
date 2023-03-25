@@ -13,7 +13,7 @@ imprimirResultado(5, 5)
 imprimirResultado(5, 5, soma)
 
 //passando outra função dentro da chamada da função. A função recém declarada na chamada ocupa o 3º parâmetro.
-imprimirResultado(5, 5, function (x, y) { return x - y }) //O terceiro parãmetro é composto por uma função anônima.
+imprimirResultado(5, 5, function (x, y) { return x - y }) //O terceiro parâmetro é composto por uma função anônima.
 
 //Passando uma arrow function como parâmetro
 imprimirResultado(5, 5, (x, y) => x * y)

@@ -2,6 +2,7 @@
 
 const potenciacao = function(base, expoente){
     return base ** expoente
+    // return Math.pow(base, expoente)
 }
 
 console.log(potenciacao(9, 3))

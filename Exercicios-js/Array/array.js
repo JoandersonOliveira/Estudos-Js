@@ -1,4 +1,4 @@
-//Em js array é um Objeto. Estrutura indexaa a partir do ídice zero
+//Em js array é um Objeto. Estrutura indexada a partir do ídice zero
 //Estrutura dinâmica heterogenea.
 
 console.log(typeof Array, typeof new Array, typeof []) // function object object
@@ -15,7 +15,7 @@ console.log(aprovados[3]);
 
 aprovados[3] = 'Paulo'; //adicionando valor no índice 3
 aprovados.push('Abia'); //lançando novo valor na ultima posição do array
-console.log(aprovados.length)
+console.log(aprovados.length);
 
 aprovados[9] = 'Rafael'; //como o array tinha somente 4 posições, ao adicionar uma 9° posição todos as posições entre o índice 4 e o 9 serão criados e ficarão undefyned.
 console.log(aprovados.length);
@@ -36,7 +36,6 @@ aprovados.splice(1, 2, 'Elemento1', 'Elemento2'); //Remover e adicionar elemento
 //aprovados.splice(1, 0, 'Elemento1', 'Elemento2'); // OUTPUT: ['Bia', 'Elemento1', 'Elemento2', 'Carlos', 'Ana', 'Lucas', 'Gabriel', 'Bruno'
 
 console.log(aprovados)   
-
 
 
 

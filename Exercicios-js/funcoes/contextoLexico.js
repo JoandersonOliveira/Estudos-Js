@@ -16,3 +16,5 @@ exec() // retorna global já que a função 'minhaFuncao' imprime a variável gl
 /**
  * nota: toda função carrega a informação (contexto) de onde a mesma foi declarada.
  */
+
+// console.log(minhaFuncao())

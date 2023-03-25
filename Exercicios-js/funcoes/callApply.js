@@ -11,8 +11,8 @@ const produto = {
 global.preco = 20
 global.desc = 0.1
 
-// console.log(getPreco())
-// console.log(produto.getPreco())
+ //console.log(getPreco())
+ //console.log(produto.getPreco())
 
 const carro = { preco: 49990, desc: 0.20 }
 
@@ -21,4 +21,4 @@ console.log(getPreco.apply(carro))
 
 console.log(getPreco.call(carro, 0.17, '$'))// 1º parâmetro é o objeto, os demais são os parâmetros da função "getPreco()"
 
-console.log(getPreco.call(carro, [0.17, '$'])) // Espera que os parâmetros sejam passados dentro de um array
+console.log(getPreco.apply(carro, [0.17, '$'])) // Espera que os parâmetros sejam passados dentro de um array

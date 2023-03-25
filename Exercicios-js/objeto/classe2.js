@@ -20,5 +20,4 @@ class Filho extends Pai {
 const filho = new Filho
 console.log(filho) //Filho { sobrenome: 'Silva', profissao: 'Professor' }
 
-
 //No ambito de sintaxe de classe essa é a forma de definir que uma classe tem outra classe, ou outra função como protótipo

@@ -46,9 +46,9 @@ console.log(carro)
 delete carro.condutores
 delete carro.proprietario.endereco
 delete carro.calcularValrSeguro
-console.log(carro)
-console.log(carro.condutores)
-console.log(carro.condutores.length)
+// console.log(carro)
+// console.log(carro.condutores)
+// console.log(carro.condutores.length)
 
 
 

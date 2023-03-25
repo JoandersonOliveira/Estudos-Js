@@ -1,5 +1,5 @@
 const sequencia = {
-    _valor: 1, // convenção (simbolo underline na frente da variável indica que a mesma é privada
+    _valor: 1, // convenção (simbolo underline antes da variável indica que a mesma é privada
     get valor() { return this._valor++ },
     set valor(valor) { 
          if(valor > this._valor){       //Nesse caso a vantagem de usar o set() é que podemos aplicar uma validação e só atribuir o valor quando achar necessário
